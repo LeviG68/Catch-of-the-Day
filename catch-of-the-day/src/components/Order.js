@@ -1,6 +1,8 @@
 import React from "react";
 import { formatPrice } from "../helper";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+
+
 class Order extends React.Component {
   renderOrder = (key) => {
     const fish = this.props.fishes[key];
